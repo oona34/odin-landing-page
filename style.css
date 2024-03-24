@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+button:single-button {
+    border-style: none;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: space-between;
+    gap: 20px;
+    height: 97vh;
+}
+
+h1, h3, p {
+    font-family: roboto;
+}
+
+header, footer {
+    background-color: #1F2937;
+    color: white;
+}
+
+#header-logo {
+    justify-content: start;
+}
+
+.header-container-1 {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    width: auto;
+    height: 8vh;
+}
+
+.header-links {
+    min-width: 20vw;
+    max-width: 60vw;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header-links a {
+    padding: 0.4rem;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+}
+
+.call-container {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    background-color: #3882F6;
+    border-radius: 5px;
+    padding: 2%;
+    margin: 0.05rem 3rem;
+}
+
+.call-text {
+    display: flex;
+    flex-direction: column;
+    flex:5;
+}
+
+#call-to-sign-up {
+    color: white;
+    background-color: #3882F6;
+    border-radius: 2px;
+    border-color: white;
+    flex: 1;
+    align-self: center;
+}
+
+footer {
+    height: 3vh;
+    text-align: center;
+    padding: 0.7%;
+}

@@ -1,0 +1,1 @@
+This project is meant to try out my skills at CSS and HTML to produce a page that looks as close as possible to the provided example, with some optional customization as well.
