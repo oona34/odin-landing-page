@@ -5,11 +5,12 @@
     --my_white: #F9FAF8;
 }
 
-* {
+html {
     margin: 0;
     padding: 0;
-    font-size: 10px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-style: none;
+    font-size: 8px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;;
 }
 
 button:single-button {
@@ -22,7 +23,7 @@ a:link {
 }
 
 header {
-    height: 30vh;
+    height: 20%;
 }
 
 body {
@@ -33,27 +34,29 @@ body {
 
 p {
     font-family: roboto;
+    font-size: 1rem;
 }
 
 h1 {
-    font-size: 24px; 
+    font-size: 3rem; 
     font-style: extra-bold;
     color: var(--my_white, white);
 }
 
 h2 {
-    font-size: 18px; 
+    font-size: 2rem; 
     font-style: extra-bold;
     color: var(--my_dark_blue, blue);
 }
 
 h3 {
-    font: 12px var(--my_white, white);
+    font-size: 1.5rem;
+    color: var(--my_white, white);
 }
 
 .big-section {
-    padding-left: 15vw;
-    padding-right: 15vw;
+    padding-left: 18%;
+    padding-right: 18%;
 }
 
 .dark-blue {
@@ -63,7 +66,7 @@ h3 {
 
 #logo {
     width: auto;
-    height: 8vh;
+    font-weight: bold;
 }
 
 .header-container-1 {
@@ -75,8 +78,8 @@ h3 {
 }
 
 .header-links {
-    min-width: 20vw;
-    max-width: 60vw;
+    min-width: 10%;
+    max-width: 60%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -87,32 +90,47 @@ h3 {
     flex-direction: row;
     justify-content: center;
     padding-top: 2rem;
-    padding-bottom: 6rem;
+    padding-bottom: 4rem;
+    gap: 8%;
 }
 
 .hero-text-container {
     flex: 1;
-}
-
-.hero-text-container p {
-    font: 18px var(--my_gray);
+    font-size: 1.2rem;
+    color: var(--my_gray);
 }
 
 #header-pic {
+    padding: 2.5rem 1rem;
     flex: 1;
-    height: 8rem;
+    min-width: 4rem;
+    width: 15rem;
+    min-height: 1rem;
+    height: 19rem;
+    object-fit: cover;
 }
 
 .header-links a {
     padding: 0.4rem;
 }
 
+.header-sign-up {
+    color: var(--my_white, white);
+    background-color: var(--my_light_blue, #3882F6);
+    border-radius: 1.5px;
+    border-style: none;
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 2rem 0;
+    padding: 0.1rem 1.5rem;
+}
+
 .random-examples {
-    height: 25vh;
+    height: 28rem;
 }
 
 #random-sentence {
-    padding: 4%;
+    padding: 6%;
     text-align: center;
     margin: 0.1rem;
 }
@@ -128,34 +146,24 @@ h3 {
 .example-items {
     width: 2px;
     height: 65px;
-    /* overflow: hidden; */
     flex: 1;
     margin: 0 1rem;
-    /* display: block;
-    width: 3rem;
-    height: 3rem;
-    margin: 1rem; */
 } 
 
 .example-img {
     border-color: var(--my_light_blue, #3882F6);
-    border-width: 2px;
+    border-width: 1.5px;
     border-style: solid;
     border-radius: 5px;
     height: 100%;
     width: 100%;
     object-fit:scale-down;
-    /* width: 3rem;
-    height: 3rem;
-    
-    padding: 2.5rem;
-    overflow: hidden; */
 }
 
 
 .quote-section {
     background-color: var(--my_gray);
-    height: 20vh;
+    height: 22rem;
 }
 
 .quote-container {
@@ -165,12 +173,12 @@ h3 {
 }
 
 #quote {
-    font-size: 15px;
+    font-size: 1.7rem;
     font-style: italic;
 }
 
 #author {
-    padding-top: 1rem;
+    padding-top: 0.2rem;
     align-self: flex-end;
     font-weight: bold;
 }
@@ -199,10 +207,15 @@ h3 {
 #call-to-sign-up {
     color: var(--my_white, white);
     background-color: var(--my_light_blue, #3882F6);
-    border-radius: 2px;
+    border-radius: 4px;
+    border-width: 0.8px;
+    border-style: solid;
     border-color: var(--my_white, white);
     flex: 1;
     align-self: center;
+    font-size: 1rem;
+    margin: 2rem 0;
+    padding: 0.1rem 0.3 rem;
 }
 
 footer {
